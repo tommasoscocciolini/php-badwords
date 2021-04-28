@@ -19,4 +19,7 @@
   <b>Testo 'Censurato'</b> <br>
   <?php $censored_text = str_replace($_GET['badword'], '***', $lorem);  ?>
   <?php echo $censored_text ?>
+
+  <br><br>
+  Lunghezza testo : <?php echo strlen($lorem); ?>
 </div>
